@@ -5,7 +5,7 @@
 Det jag har gjort är att jag har lagt till en bild i appen och ändrat 
 texten från "Hello World!" till "Hej mitt namn är Pontus" genom att redigera content_main.xml-filen som fanns under res > layout.
 
-För att lägga till bilden använde jag ImageView och la bilden i drawable. 
+För att lägga till bilden använde jag ImageView och la bilden i drawable.
 
 ```
     <ImageView
