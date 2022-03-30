@@ -10,11 +10,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pontus Kronenberg var här"
+        android:text="Hej mitt namn är Pontus :)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -22,10 +23,9 @@
         android:layout_height="183dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:contentDescription="Self Portrait"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ponkron"
         tools:layout_editor_absoluteY="434dp"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        tools:ignore="ContentDescription,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
